@@ -177,7 +177,7 @@ mv anaconda3 /newpath/
 vi ~/.bashrc                    #修改文件中绝对路径
 vi /data1/anaconda3/bin/conda
 vim /data1/anaconda3/etc/profile.d/conda.sh   #更改文件中绝对路径
-source ~/.bashrc
+source ~/.bashrc                #更新环境变量
 sh /data1/anaconda3/etc/profile.d/conda.sh
 ```
 9、conda常规深度环境安装
@@ -193,5 +193,6 @@ conda install tensorflow-gpu==1.14.0 #（cuda、cudnn对应版本附带一起安
 conda install keras==2.2.4
 #安装pytorch
 conda install pytorch==1.2.0 torchvision==0.4.0 -c pytorch
+
 ```
 
